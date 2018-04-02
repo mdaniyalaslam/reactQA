@@ -25,7 +25,7 @@ const styles = {
     },
     radioButton: {
         marginBottom: 16,
-        marginLeft:50,
+        marginLeft:20,
     },
 
 };
@@ -66,7 +66,7 @@ class Signup extends Component {
                         // onChange={this._onChangeHandler.bind(this)}
                         />
                         
-                        <RadioButtonGroup name="shipSpeed" defaultSelected="not_light">
+                        <RadioButtonGroup style={{display:"flex"}} name="shipSpeed" defaultSelected="not_light">
                             <RadioButton
                                 value="light"
                                 label="Student"
